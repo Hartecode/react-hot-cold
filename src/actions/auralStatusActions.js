@@ -1,6 +1,5 @@
 export const SET_AURALSTATUS = 'SET_AURALSTATUS';
 
-export const setAuralStatus = status => ({
+export const setAuralStatus = () => ({
 	type: SET_AURALSTATUS,
-	status
 });
